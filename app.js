@@ -23,7 +23,7 @@ function exibirResultado(nome){
 
 function sortearAmigo(){
     let max = nomes.length;
-    let random = parseInt(Math.random() * max + 1);
+    let random = parseInt(Math.random() * max - 1);
 
     for(i = 0; i < max; i++){
         if(random > max){
